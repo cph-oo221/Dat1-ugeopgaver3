@@ -9,7 +9,19 @@ class Palindrome
 	static void printlfPalindrome(String sentence)
 	{
 		
-			System.out.print(sentence);
+		sentence = rev ="";
+
+		if()
+		{
+			System.out.print(sentence + "is a palindrome");
+		}
+		else
+		{
+			System.out.print(sentence + "is not a palindrome");
+		}
+		
+
+
 	}
 }
 
