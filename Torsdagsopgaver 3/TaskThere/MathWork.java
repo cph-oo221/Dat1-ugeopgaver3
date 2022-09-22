@@ -14,7 +14,7 @@ class MathWork
 
 		System.out.println("Random number " + getRandom());
 
-		//TODO
+		
 		printNumber(10);
 
 	}
@@ -38,7 +38,7 @@ class MathWork
 		return arr[new Random().nextInt(arr.length)];
 	}
 
-// TODO
+
 	public static int printNumber(int n)
 	{
 		if(n<0) return -1;
