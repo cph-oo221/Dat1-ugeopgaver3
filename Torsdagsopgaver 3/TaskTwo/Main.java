@@ -8,7 +8,7 @@ class Main
 	static void printPartOfWord(String sentence, int index, int subset)
 	{
 
-		System.out.println(sentence.substring(index, subset+1));
+		System.out.println(sentence.substring(index, index + subset));
 
 	}
 }
