@@ -28,11 +28,11 @@ void draw()
     {
       if(board[x][y] == 0)
       {
-        fill(255);
+        fill(0);
       }
       else
       {
-        fill(0);
+        fill(255);
       }
        rect(x * sideLength, y * sideLength, sideLength, sideLength);
     }
